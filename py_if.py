@@ -7,7 +7,7 @@ else:
 
 
 i = 0
-while i<10:
+while i>10:
     i+=1
     print('I am inside loop - ' + str(i))
 
@@ -21,9 +21,15 @@ print(i)
 
 
 k=1
-for k in range(5, 11):
-    print(k)
-    
+n=0
+for k in range(5, 100):
+    if k%2 == 0 and k%5 == 0:
+        print('k%2 = '+str(k))
+        n+=1
+        if n==3:
+            break    
+
+
 
 required = True
 while required:

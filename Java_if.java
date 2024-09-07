@@ -11,11 +11,18 @@ public class Java_if {
         } while (i > 10);
         System.out.println(i);
 
-
-        for (int k=5; k<=10; k++)
+        
+        int n = 0;
+        for (int k=5; k<=100; k++)
         {
-         System.out.println(k);
-
+            if (k%2==0 && k%5==0)
+            {
+                System.out.println(k);
+                n++;
+                if(n==3) 
+                    break;
+                
+            }
         }
 
         boolean required = true;
