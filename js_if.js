@@ -10,9 +10,16 @@ else
 } 
 
 
-let i = 0
-while(i<10)
+let i = 0;
+while(i>10)
 {
     i++
     console.log('I am inside loop - ' + i)
 }
+
+
+i = 0
+do {
+    i++;
+} while (i > 10);
+console.log(i);
