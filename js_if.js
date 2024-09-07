@@ -23,3 +23,17 @@ do {
     i++;
 } while (i > 10);
 console.log(i);
+
+
+for (let k=5; k<=10; k++)
+{
+    console.log(k)
+}
+
+
+let required = true
+while(required)
+{
+    console.log(required);
+    required = false;
+}

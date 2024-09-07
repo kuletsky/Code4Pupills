@@ -18,3 +18,14 @@ while True:
     if i < 10:
         break
 print(i)
+
+
+k=1
+for k in range(5, 11):
+    print(k)
+    
+
+required = True
+while required:
+    print(required)
+    required = False
