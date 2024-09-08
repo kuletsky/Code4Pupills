@@ -31,6 +31,7 @@ for (let i=0; i<marks.length; i++)
 let total = marks.reduce((total, sum) => sum+total, 0)
 console.log(total)
 
+
 var scores = [3, 7, 9, 12, 16]
 var evenScore = []
 for (let i=0; i<scores.length; i++)
@@ -41,3 +42,18 @@ for (let i=0; i<scores.length; i++)
     }
 }
 console.log(evenScore)
+
+
+let newscores = scores.filter(score=>score>12)
+console.log(newscores)
+
+
+let numbers = [1, 2, 3, 4];
+let doubled = numbers.map(num => num * 2);
+console.log(doubled)
+
+let number = [12,2,435,646,4]
+let sumValue = number.filter(score=>score%2==0).map(score=>score*2).reduce((sum, val)=>sum+val,0)
+console.log(sumValue)
+
+

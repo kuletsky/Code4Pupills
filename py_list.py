@@ -30,6 +30,7 @@ for i in range(len(marks)):
 total = sum(marks)
 print(total)
 
+
 scores = [3, 7, 9, 12, 16]
 evenScore = []
 
@@ -38,3 +39,23 @@ for i in range(len(scores)):
     if scores[i]%2 == 0:
         evenScore.append(scores[i])
 print(evenScore)
+
+
+# for score in scores:
+#     if scores[i] > 12:
+#         evenScore.append(scores[i])
+# print(evenScore)
+
+newscores = [score for score in scores if score > 12]
+print(newscores)
+
+
+numbers = [1, 2, 3, 4]
+doubled = map(lambda x: x * 2, numbers)
+print(list(doubled))
+
+arr = [12,3,19,16,14]
+
+arr1 = sorted(arr)
+arr.sort(reverse=True)
+print(arr, arr1)
