@@ -1,4 +1,5 @@
 // object is collection of properties
+const Person = require('./js_class') 
 
 let person = {
     
@@ -30,3 +31,4 @@ for(key in person)
 {
     console.log(person[key])
 }
+

@@ -1,3 +1,5 @@
+from py_class import Person
+
 day = 'tuesday '
 print(len(day))
 print(day[0:4])
@@ -13,3 +15,7 @@ print(newQuote)
 
 print(newQuote.find('day'))
 print(newQuote.index('day'))
+
+person = Person('Qwerty','Uiop')
+person.fullname()
+print(person.location())

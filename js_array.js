@@ -57,3 +57,4 @@ let sumValue = number.filter(score=>score%2==0).map(score=>score*2).reduce((sum,
 console.log(sumValue)
 
 
+  
