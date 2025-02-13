@@ -11,6 +11,7 @@ public class java_array {
         System.out.println(Arrays.asList(marks).contains(100)); 
         System.out.println(Arrays.copyOfRange(marks, 1, 3));
         int sum = 0;
+        
         for (int i = 0; i < marks.length; i++) {
             sum += marks[i];
             System.out.println(marks[i] + " " + sum);   

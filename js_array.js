@@ -57,4 +57,16 @@ let sumValue = number.filter(score=>score%2==0).map(score=>score*2).reduce((sum,
 console.log(sumValue)
 
 
+console.log("========================")
+const array = [9, 2, 6, 4, 5, 12, 7, 8, 6];
+let resultArray = [];
+
+for (let i = 0; i < array.length; i++) {
+//            System.out.println(i);
+    if (array[i] % 2 == 0) {
+        resultArray.push(array[i])
+    }
+}
+
+console.log(resultArray)
   
