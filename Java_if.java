@@ -11,23 +11,23 @@ public class Java_if {
         } while (i > 10);
         System.out.println(i);
 
-        int n = 0;
-        for (int k = 5; k <= 100; k++) {
-            if (k % 2 == 0 && k % 5 == 0) {
-                System.out.println(k);
-                n++;
-                if (n == 3)
-                    break;
+        // int n = 0;
+        // for (int k = 5; k <= 100; k++) {
+        //     if (k % 2 == 0 && k % 5 == 0) {
+        //         System.out.println(k);
+        //         n++;
+        //         if (n == 3)
+        //             break;
 
-            }
-        }
+        //     }
+        // }
 
-        boolean required = true;
+        // boolean required = true;
 
-        while (required) {
-            System.out.println(required);
-            required = false;
-        }
+        // while (required) {
+        //     System.out.println(required);
+        //     required = false;
+        // }
 
     }
 }
