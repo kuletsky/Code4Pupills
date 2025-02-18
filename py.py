@@ -19,6 +19,34 @@
 # print(required)
 # # print(!required)
 
-for i in "wegfewqfewqf w":
-    print(i)
-print(range(wegfewqfewqf w))
+s = "Перевыборы выбранного президента"
+
+for char in s:
+    if char == 'о':
+        print(char, end=' ')
+        
+        
+print(s.count('е'))
+    
+    
+array = [["Привет", "всем", "кто"],
+         ["изучает", "язык", "программирования"],
+         ["java"]]
+
+count = 0
+
+# Loop through each row
+for row in array:
+    contains_e = False
+
+    # Loop through each word in the row
+    for word in row:
+        if 'е' in word:  # Check if the word contains the letter 'е'
+            contains_e = True
+            break  # No need to check further if 'е' is found
+
+    # If no word in the row contains 'е', increment the count
+    if not contains_e:
+        count += 1
+
+print(f"Number of rows without 'е': {count}")
