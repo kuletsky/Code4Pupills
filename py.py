@@ -50,3 +50,9 @@ for row in array:
         count += 1
 
 print(f"Number of rows without 'е': {count}")
+
+for i in "qwret":
+    print(i)
+
+for i in range(5):
+    print(i)
