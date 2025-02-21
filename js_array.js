@@ -69,4 +69,12 @@ for (let i = 0; i < array.length; i++) {
 }
 
 console.log(resultArray)
+
+numbers = "1 2 3 4 5".split(" ");
+console.log(numbers)
+// numbers = numbers.map(Number)
+// console.log(numbers)
+const max = Math.max(...numbers)
+const min = Math.min(...numbers)
+console.log(max, min)
   
