@@ -53,14 +53,14 @@ const developers = [
     { firstName: 'Mikey', lastName: 'L.', country: 'New Zealand', age: 30, language: 'Node' }
 ];
 
-const result = function(a) 
+function result(a) 
 {
     for (const developer in a) {
         if (developer.language == 'Javascript') {
             return "Yes"
         }
     return "No";
-    
+     
 }
 }
 
