@@ -239,3 +239,33 @@ const sortedBooks = books.sort((a, b) => {
     return a.writtenYear - b.writtenYear;
 });
 console.log(sortedBooks);
+
+
+const Testing = {    
+    principles: [
+        "Testing shows the presence, not the absence of defects.",
+        "Exhaustive testing is impossible.",
+        "Early testing saves time and money.",
+        "Defects cluster together.",
+        "Tests wear out.",
+        "Testing is context dependent.",
+        "Absence-of-defects fallacy."
+],
+    types: [
+        "Functional testing evaluates the functions that a component or system should perform.",
+        "Non-functional testing is the testing of 'how well the system behaves'.",
+        "Black-box testing is specification-based and derives tests from documentation external to the test object.",
+        "White-box testing is structure-based and derives tests from the system's implementation or internal structure (e.g., code, architecture, work flows, and data flows)."
+]
+}
+// Print all testing principles
+console.log("Testing Principles:");
+Testing.principles.forEach((principle, index) => {
+    console.log(`${index + 1}. ${principle}`);
+});
+
+// Print all test types
+console.log("\nTest Types:");
+Testing.types.forEach((type, index) => {
+    console.log(`${index + 1}. ${type}`);
+});
